@@ -1,9 +1,6 @@
 # KeyLogger
 Projet de cybersécurité
 
-Download from web :
-http://localhost:81/Python_exe/site.php
-
 TODO :
 
 [+} Install on startup folder :
