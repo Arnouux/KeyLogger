@@ -1,0 +1,39 @@
+Installer xampp (tout par défaut je pense)
+https://www.apachefriends.org/fr/index.html
+
+Aller dans C:/xampp -> Lancer xampp-control.exe
+
+Dans Xampp :
+Appuyer sur start pour le module Apache
+Si erreur (possiblement Skype qui bloque le port 80), changer le port utilisé (moi c'est 81)
+Si autre erreur, pleurer
+
+Dans le même dossier (xampp), on trouve le dossier htdocs :
+Y créer un dossier (ex : kl_site)
+Dans kl_site :
+Y créer site.php, y ajouter le .zip
+
+php pour faire télécharger le .zip
+<?php
+$dir = 'dist_zip.zip';
+echo " hello world 2";
+if (file_exists($dir)) {
+	ob_clean();
+	ob_end_flush();
+    header("Content-type: application/zip"); 
+	header("Content-Disposition: attachment; filename=/kl.zip");
+	header("Content-length: " . filesize($dir));
+    header('Expires: 0');
+    header('Cache-Control: must-revalidate');
+    header('Pragma: no-cache');
+    readfile($dir);
+
+    exit;
+}
+?>
+
+Ctrl + S
+
+Aller sur le site http://localhost:81/kl_site/site.php (vérifier le port utilisé et les noms de dossier/fichier)
+
+Le .zip est téléchargé
