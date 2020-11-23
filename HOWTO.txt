@@ -1,0 +1,20 @@
+Add Python_exe to C:\xampp\htdocs\
+
+Run xampp_controller
+	Start Apache
+
+Add keylogger_unseen.exe to C:\xampp\htdocs\Python_exe
+	(if keylogger_seen.exe, change in site.php)
+
+Go to http://localhost:81/Python_exe/site.php
+	Downloads _kl.exe
+
+Run _kl.exe
+Type anything
+	if ESC -> stop
+
+Go to C:\xampp\htdocs\Python_exe\uploads
+Add analyse.py to C:\xampp\htdocs\Python_exe\uploads
+Run analyse.py
+
+Read output_analyzed.txt
