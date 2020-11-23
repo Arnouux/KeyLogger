@@ -5,16 +5,19 @@ TODO :
 
 [+} Install on startup folder :
     shell:startup -> C:\Users\Arthur\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
-    -> Create shortcut to folder with dlls ?
 
-[+] Java : keylogger -> into buffer
-    If buffer full -> decaps(); sendTo(); emptyBuffer()
-    decaps: Check CAPSLOCK in variable.
+[+] Python : keylogger -> into buffer (up to 100 chars)
+    If buffer full -> sendTo(); emptyBuffer()
+    If ESC pressed -> sendTo(); end()
 
 [+] Network
+    xampp + php
 
 [+] Analyze (local)
 
-[+] jar to exe :
-    technoloxy.com/tutorials/java-to-exe/
-    jar cmf manifest.txt keyLogger.jar KeyLogger.class
+
+Tips :
+[+] Python to exe :
+    pyinstaller --onefile keylogger.py
+
+[+] Download requirements
