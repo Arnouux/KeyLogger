@@ -7,3 +7,9 @@ ooooKey.esc
 iiiKey.esc
 plpllplKey.esc
 aaaaaKey.esc
+ppopopopopoKey.esc
+Key.shift1111Key.esc
+Key.shift1234567890Key.shiftKey.spaceKey.spaceKey.spaceKey.enterKey.enterpopo,;Key.shift?.Key.esc
+abcdeftgKey.backspacehKey.esc
+pppppppKey.shift000000Key.esc
+yoKey.entersqueeizKey.enterKey.ctrl_l'\x17'Key.esc
