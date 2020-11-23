@@ -1,0 +1,4 @@
+pynput==1.6.8
+pywin32==228
+requests==2.24.0
+winshell==0.6
